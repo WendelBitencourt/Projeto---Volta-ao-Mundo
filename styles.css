@@ -1,0 +1,15 @@
+/* Resete CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fazer com que a imagem de fundo fique inteira, centralizada e sem repetir*/
+body {
+  background-image: url(imagens/cidade_proibida.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
