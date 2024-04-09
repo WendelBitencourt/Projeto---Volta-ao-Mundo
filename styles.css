@@ -66,8 +66,8 @@ body {
 }
 
 .nav-item {
-  margin-left: 15px;
-  margin-right: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 /* Crie uma pequena borda e um fundo levemente transparente puxado pro vermelho para o .navbar */
