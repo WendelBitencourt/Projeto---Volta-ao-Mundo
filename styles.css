@@ -5,11 +5,101 @@
   box-sizing: border-box;
 }
 
-/* Fazer com que a imagem de fundo fique inteira, centralizada e sem repetir*/
 body {
-  background-image: url(imagens/cidade_proibida.jpg);
+  background-image: linear-gradient(to right, rgb(110, 41, 41), #850808);
+}
+
+@font-face {
+  font-family: "ChineseDragon";
+  src: url("fonts/ChineseDragon.ttf") format("truetype");
+}
+
+/* Fazer com que a imagem de fundo fique inteira, centralizada e sem repetir*/
+#section1 {
+  background-image: url("imagens/cidade_proibida.jpg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
-  height: 100vh;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+/* Deichar o fundo levemente transparente */
+#section2 {
+  background-image: url("imagens/oszomi.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 120vh;
+}
+
+/* Deixar o #teste levemente transparente */
+#fundo {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 80%;
+}
+
+#fundo p {
+  color: rgb(32, 31, 31);
+  text-align: center;
+}
+
+#titulo {
+  color: rgb(32, 31, 31);
+  font-size: 8vw;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "ChineseDragon";
+}
+
+@media (max-width: 600px) {
+  #number1 {
+    font-size: 7vw;
+  }
+}
+
+#logo {
+  width: 120px;
+  height: 120px;
+}
+
+.nav-item {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* Crie uma pequena borda e um fundo levemente transparente puxado pro vermelho para o .navbar */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: rgba(151, 45, 45, 0.8);
+}
+
+#section4 {
+  background-image: url("imagens/ciencia.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 120vh;
+}
+
+#section5 {
+  background-image: url("imagens/festa.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 120vh;
+}
+
+#section6 {
+  background-image: url("imagens/muralha.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 120vh;
+}
+
+.reveal {
+  visibility: hidden;
 }
