@@ -9,7 +9,7 @@ body {
   background-image: linear-gradient(to right, rgb(110, 41, 41), #850808);
 }
 .testadas {
-  padding-top: 30vh;
+  padding-top: 25vh;
 }
 
 @font-face {
@@ -107,6 +107,8 @@ body {
   visibility: hidden;
 }
 
-.container {
+#fundo2 {
   background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 10px;
 }
