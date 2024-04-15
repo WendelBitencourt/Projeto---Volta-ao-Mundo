@@ -2,7 +2,7 @@
 
 ## Visão Geral
 
-Este repositório faz parte do projeto "Volta ao Mundo", que foca em fornecer insights detalhados e recursos sobre diversos países, começando pela China. O projeto pretende abordar diversos aspectos como cultura, política, economia, turismo e ciência, apresentados por meio de uma série de páginas web.
+Este repositório faz parte do projeto "Volta ao Mundo" da disciplina de "Desenvolvimento WEB 2" da Fatec de Itapira, que foca em fornecer informações sobre diversos países, nesse caso, sobre a China. O projeto pretende abordar diversos aspectos como cultura, política, economia, turismo e ciência, apresentados por meio de uma série de páginas web.
 
 ## Conteúdos
 
