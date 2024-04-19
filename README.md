@@ -30,7 +30,7 @@ Contribuições para o projeto são bem-vindas. Você pode contribuir:
 - Adicionando novas seções sobre facetas inexploradas da China.
 
 
-## Contato
+## Site do Projeto
 
-Para mais informações, você pode visitar o [site do projeto](https://wendelbitencourt.github.io/Projeto-Volta-ao-Mundo-China/).
+O projeto pode ser acessado aqui [site do projeto](https://wendelbitencourt.github.io/Projeto-Volta-ao-Mundo-China/).
 
